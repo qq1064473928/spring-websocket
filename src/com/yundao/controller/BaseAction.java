@@ -17,7 +17,6 @@ public class BaseAction {
 
     @ModelAttribute
     public void setReqAndResp(HttpServletRequest request, HttpServletResponse response){
-        System.out.println( "first" );
         this.request = request;
         this.response = response;
         session = request.getSession();
